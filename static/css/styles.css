@@ -2,8 +2,8 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  font-family: "Roboto Slab", serif;
-  color: #333333;
+  font-family: "PT Sans", serif;
+  color: #000;
 }
 
 h1,
@@ -13,7 +13,7 @@ h4,
 h5,
 h6,
 time {
-  font-family: "Ruda", sans-serif;
+  font-family: "PT Sans", sans-serif;
 }
 
 #container {
@@ -73,7 +73,7 @@ time {
 #container nav {
   border-bottom: solid 3px #cecece;
   padding-bottom: 0.5em;
-  font-family: "Ruda", sans-serif;
+  font-family: "PT Sans", sans-serif;
 }
 
 #container nav ul {
@@ -89,7 +89,7 @@ time {
 }
 
 #container nav ul li a.active {
-  border-bottom: 0.5em solid #666666;
+  border-bottom: 0.5em solid #290066;
 }
 
 #container main {
@@ -125,7 +125,6 @@ time {
 
 #container main section#list ul li {
   padding: 0.5em 0;
-  border-bottom: 1px solid #cecece;
 }
 
 #container main section#list ul li time, #container main section#list ul li span.count {
@@ -194,7 +193,7 @@ time {
 
 .meta-aside, #container main section#home ul li aside, #container main article aside {
   margin: 0.5em 0;
-  font-family: "Ruda", sans-serif;
+  font-family: "PT Sans", sans-serif;
   color: #909090;
   font-size: 0.8em;
 }
@@ -211,9 +210,14 @@ time {
 }
 
 a {
-  color: #666666;
+  color: #800000;
   text-decoration: none;
 }
+
+a:hover {
+  color: #ac00e6;
+}
+
 
 .image, figure img, img {
   width: 100%;
